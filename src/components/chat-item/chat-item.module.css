@@ -1,0 +1,40 @@
+.message {
+  display: grid;
+  grid-template-areas:
+    "author date"
+    "message message";
+  padding: 2px 5px;
+  margin-bottom: 5px;
+  max-width: 35rem;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.selfMessage {
+  composes: message;
+  align-self: flex-end;
+}
+
+.author {
+  grid-area: author;
+  margin: 0;
+  padding: 0 10px 0 0;
+  color: gray;
+  font-size: 12px;
+}
+
+.text {
+  grid-area: message;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.date {
+  grid-area: date;
+  justify-self: end;
+  margin: 0;
+  padding: 0;
+  color: gray;
+  font-size: 12px;
+}
