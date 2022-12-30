@@ -7,6 +7,6 @@
 ### Технологии
 
 1. HTML5
-2. CSS3 - с использованием flexbox, grid и [React Developer Burger UI Components](https://yandex-praktikum.github.io/react-developer-burger-ui-components/docs/)
+2. CSS3
 3. TypeScript с использованием библиотеки React, React-Router, React-Bootstrap
 4. Сборщик Webpack
